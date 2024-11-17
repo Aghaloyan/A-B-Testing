@@ -1,34 +1,36 @@
-A/B Testing: Multi-Armed Bandit Experiment
-Structure of the Project
-The project consists of the following files:
+## Marketing Analytics: A/B Testing
+### Overview
+This Jupyter notebook is an assignment for a Marketing Analytics course, focusing on the application of A/B testing to evaluate marketing strategies. It explores statistical analysis techniques and visualization methods to understand the impact of different marketing approaches.
 
-Bandit.py:
-Contains the implementation of the Epsilon Greedy and Thompson Sampling algorithms. These classes provide methods for selecting bandits, updating estimates, and conducting experiments. Additionally, the file includes visualization methods to compare cumulative rewards and regrets between the algorithms.
+## Prerequisites
+Before running the notebook, ensure you have the following installed:
 
-experiment.py:
-The main script to execute the experiments. It runs the Epsilon-Greedy and Thompson Sampling algorithms over a defined number of trials and generates visual outputs (cumulative rewards and regrets) along with saving the results in a CSV file.
+Python 3.8 or higher
+Jupyter Notebook or JupyterLab
+You can install Python and Jupyter via Anaconda Distribution for an easier setup, which includes both Python and Jupyter.
 
-results/:
-A directory where experiment outputs are saved:
+## Installation
+First, clone the repository or download the project files to your local machine.
 
-bandit_results.csv: A CSV file storing detailed results of the experiment, including the selected bandit, rewards, and algorithm used.
-cumulative_rewards.png: Visualization of cumulative rewards for both algorithms.
-cumulative_regret.png: Visualization of cumulative regrets for both algorithms.
-requirements.txt:
-A list of required Python dependencies for the project.
+## Usage
+To run the notebook:
 
-Usage
-Step 1: Clone or Download the Repository
-Step 2: Set Up the Environment
-Step 3: Run the experiments.py
-Saving Experiment Output
-The experiment outputs are saved for further analysis:
+Open your command line interface (CLI).
+Navigate to the project directory.
+Type the following command to start Jupyter:
+jupyter notebook
 
-CSV File: Includes details such as: Algorithm used (Epsilon-Greedy or Thompson Sampling) Selected bandit for each trial Reward obtained for each trial Trial number
+Once Jupyter Notebook launches in your browser, open the marketing_hmw2.ipynb file.
+Execute the code cells sequentially by pressing Shift + Enter on each cell or using the "Run" button in the toolbar.
+## Features
+The notebook includes:
 
-Visualizations:
+## Data preprocessing steps to prepare data for analysis.
+Implementation of A/B testing frameworks.
+Statistical tests to determine the significance of results.
+Visualizations to represent the outcomes of the tests.
+Data Description
+The data used in this notebook involves results from prespecified values. The specific attributes and the source of the data will be described within the notebook.
 
-Cumulative Rewards: Tracks how rewards accumulate over time for each algorithm. Cumulative Regrets: Tracks the regret (difference between optimal and chosen rewards) over time for each algorithm.
-
-About
-This repository is designed for implementing and experimenting with multi-armed bandit algorithms, specifically Epsilon-Greedy and Thompson Sampling. It provides: A foundation to explore the trade-offs between exploration and exploitation. Insights into how these algorithms perform in a simulated environment with defined bandit rewards.
+## Author
+Anna Aghaloyan
