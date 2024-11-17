@@ -1,4 +1,4 @@
-## Marketing Analytics: A/B Testing
+# Marketing Analytics: A/B Testing
 ### Overview
 This Jupyter notebook is an assignment for a Marketing Analytics course, focusing on the application of A/B testing to evaluate marketing strategies. It explores statistical analysis techniques and visualization methods to understand the impact of different marketing approaches.
 
